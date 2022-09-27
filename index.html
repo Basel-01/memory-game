@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Memory Game</title>
+</head>
+<body>
+  <div class="start-button">
+    <span>Start Game</span>
+  </div>
+  <div class="memory-game">
+    <div class="info">
+      <div class="name">Hello <span></span></div>
+      <div class="best-score">
+        Less Wrong Tries =>
+        <span class="name"></span> <span class="best"></span>
+      </div>
+      <div class="tries">Wrong Tries : <span>0</span></div>
+    </div>
+    <div class="blocks">
+      <div class="block" data-brand="kia">
+        <div class="front"></div>
+        <div class="back">
+          <img src="imgs/brand1.png" alt="Kia brand">
+        </div>
+      </div>
+      <div class="block" data-brand="kia">
+        <div class="front"></div>
+        <div class="back">
+          <img src="imgs/brand1.png" alt="Kia brand">
+        </div>
+      </div>
+      <div class="block" data-brand="bmw">
+        <div class="front"></div>
+        <div class="back">
+          <img src="imgs/brand2.png" alt="Bmw brand">
+        </div>
+      </div>
+      <div class="block" data-brand="bmw">
+        <div class="front"></div>
+        <div class="back">
+          <img src="imgs/brand2.png" alt="Bmw brand">
+        </div>
+      </div>
+      <div class="block" data-brand="fiat">
+        <div class="front"></div>
+        <div class="back">
+          <img src="imgs/brand3.png" alt="Fiat brand">
+        </div>
+      </div>
+      <div class="block" data-brand="fiat">
+        <div class="front"></div>
+        <div class="back">
+          <img src="imgs/brand3.png" alt="Fiat brand">
+        </div>
+      </div>
+      <div class="block" data-brand="volkswagen">
+        <div class="front"></div>
+        <div class="back">
+          <img src="imgs/brand4.png" alt="Volkswagen brand">
+        </div>
+      </div>
+      <div class="block" data-brand="volkswagen">
+        <div class="front"></div>
+        <div class="back">
+          <img src="imgs/brand4.png" alt="Volkswagen brand">
+        </div>
+      </div>
+      <div class="block" data-brand="sheverlate">
+        <div class="front"></div>
+        <div class="back">
+          <img src="imgs/brand5.png" alt="Sheverlate brand">
+        </div>
+      </div>
+      <div class="block" data-brand="sheverlate">
+        <div class="front"></div>
+        <div class="back">
+          <img src="imgs/brand5.png" alt="Sheverlate brand">
+        </div>
+      </div>
+      <div class="block" data-brand="jeep">
+        <div class="front"></div>
+        <div class="back">
+          <img src="imgs/brand6.png" alt="Jeep brand">
+        </div>
+      </div>
+      <div class="block" data-brand="jeep">
+        <div class="front"></div>
+        <div class="back">
+          <img src="imgs/brand6.png" alt="Jeep brand">
+        </div>
+      </div>
+      <div class="block" data-brand="honda">
+        <div class="front"></div>
+        <div class="back">
+          <img src="imgs/brand7.png" alt="Honda brand">
+        </div>
+      </div>
+      <div class="block" data-brand="honda">
+        <div class="front"></div>
+        <div class="back">
+          <img src="imgs/brand7.png" alt="Honda brand">
+        </div>
+      </div>
+      <div class="block" data-brand="audi">
+        <div class="front"></div>
+        <div class="back">
+          <img src="imgs/brand8.png" alt="Audi brand">
+        </div>
+      </div>
+      <div class="block" data-brand="audi">
+        <div class="front"></div>
+        <div class="back">
+          <img src="imgs/brand8.png" alt="Audi brand">
+        </div>
+      </div>
+      <div class="block" data-brand="mercedes">
+        <div class="front"></div>
+        <div class="back">
+          <img src="imgs/brand9.png" alt="Mercedes brand">
+        </div>
+      </div>
+      <div class="block" data-brand="mercedes">
+        <div class="front"></div>
+        <div class="back">
+          <img src="imgs/brand9.png" alt="Mercedes brand">
+        </div>
+      </div>
+      <div class="block" data-brand="hyundai">
+        <div class="front"></div>
+        <div class="back">
+          <img src="imgs/brand10.png" alt="Hyundai brand">
+        </div>
+      </div>
+      <div class="block" data-brand="hyundai">
+        <div class="front"></div>
+        <div class="back">
+          <img src="imgs/brand10.png" alt="Hyundai brand">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <audio id="success" src="audio/succes.wav" preload="auto"></audio>
+  <audio id="fail" src="audio/lose.wav" preload="auto"></audio>
+  <audio id="win" src="audio/win.wav" preload="auto"></audio>
+
+  <script src="main.js"></script>
+</body>
+</html>
